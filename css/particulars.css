@@ -1,0 +1,354 @@
+body {
+    background-color: #e7e7e7;
+}
+
+/*详情页banna图*/
+.information .swiper-container {
+    font-size: 0;
+    height: 1.85rem;
+    position: relative;
+}
+
+.swiper-wrapper .swiper-slide > img {
+    width: 100%;
+}
+
+.information .swiper-container > span {
+    display: inline-block;
+    font-size: 0.15rem;
+    padding: 0 0.1rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background: rgba(1, 1, 1, 0.4);
+    border-radius: 0.15rem 0 0 0.15rem;
+    position: absolute;
+    bottom: 0.15rem;
+    right: 0;
+    color: white;
+}
+
+/*详情页说明*/
+.explain {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    padding: 0.2rem 0.2rem 0.05rem 0.2rem;
+    border-bottom: 0.01rem solid #ccc;
+    background-color: #fff;
+}
+
+.explain_left {
+    width: 2.6rem;
+    height: 1.4rem;
+    font-size: 0.13rem;
+}
+
+.explain_left p:nth-child(2) {
+    line-height: 0.25rem;
+    font-size: 0.14rem;
+}
+
+.explain_left p:nth-child(2) span {
+    color: red;
+}
+
+.explain_left p:nth-child(3) {
+    line-height: 0.25rem;
+    color: #CCCCCC;
+}
+
+.explain_left p:nth-child(4) a {
+    background-color: rgba(237, 249, 247, 0.8);
+    color: #849AAE;
+    font-size: 0.14rem;
+    text-decoration: none;
+    margin-right: 0.05rem;
+    line-height: 0.25rem;
+}
+
+.explain_right img {
+    width: 0.15rem;
+    height: 0.2rem;
+}
+
+/*<!--说明list-->*/
+.explainlist ul {
+    font-size: 0.13rem;
+    padding-left: 0.2rem;
+    padding-right: 0.15rem;
+    margin-top: 0.1rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.explainlist ul li {
+    width: 100%;
+    height: 0.16rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.explainlist ul li p {
+    flex: 1;
+}
+
+.explainlist ul li:nth-child(9) {
+    border-bottom: none;
+    text-align: center;
+}
+
+/*<!--特色房源-->*/
+.feature {
+    margin-top: 0.1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    font-size: 0;
+    background-color: #fff;
+}
+
+.feature h3 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: .18rem;
+    color: #ff9326;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.feature p:nth-child(2) {
+    margin-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.13rem;
+    line-height: 0.25rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.feature p:nth-child(3) {
+    font-size: 0.13rem;
+    text-align: center;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+}
+
+/*<!--户型分间-->*/
+.partitioned {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    background-color: #fff;
+    font-size: 0.13rem;
+}
+
+.partitioned h3 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: .18rem;
+    color: #ff9326;
+    border-bottom: 0.01rem solid #ccc;
+    margin-top: 0.1rem;
+}
+
+.partitioned ul li {
+    width: 100%;
+    display: flex;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #ff9326;
+}
+
+.partitioned ul li:last-child {
+    border-bottom: none;
+}
+
+.partitioned ul li .img img {
+    width: 0.81rem;
+    height: 0.81rem;
+    margin-right: 0.1rem;
+}
+
+.partitioned .text h4 {
+    font-size: 0.13rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0.1rem;
+}
+
+.partitioned .text p {
+    line-height: 0.3rem;
+}
+
+.partitioned .text p:nth-child(3) a {
+    background-color: rgba(237, 249, 247, 0.8);
+    color: #849AAE;
+    text-decoration: none;
+    margin-right: 0.05rem;
+}
+
+/*<!--对口学校-->*/
+.schools {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.schools h3 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: .18rem;
+    border-bottom: 0.01rem solid #ccc;
+    margin-top: 0.1rem;
+}
+
+.schools ul {
+    list-style: none;
+}
+
+.schools ul li {
+    font-size: 0.13rem;
+    line-height: 0.3rem;
+}
+
+.schools ul li span {
+    color: #999999;
+    margin-right: 0.05rem;
+}
+
+.schools ul li:last-child {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    text-align: center;
+}
+
+/*位置及周边*/
+.site {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    background-color: #fff;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.site h3 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: .18rem;
+    border-bottom: 0.01rem solid #ccc;
+    margin-top: 0.1rem;
+}
+
+.tap {
+    height: 1.55rem;
+    border: 0.01rem solid red;
+}
+
+/*推荐房源*/
+.recommend {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    background-color: #fff;
+}
+
+.recommend > h3 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: .18rem;
+    border-bottom: 0.01rem solid #ccc;
+    margin-top: 0.1rem;
+}
+
+.recommend ul {
+    font-size: 0.13rem;
+}
+
+.recommend ul li {
+    width: 100%;
+    display: flex;
+    padding-top: 0.2rem;
+    /*padding-bottom: 0.2rem;*/
+    /*border-bottom: 0.01rem solid #FF0000;*/
+}
+
+.recommend ul li .img img {
+    width: 0.81rem;
+    height: 0.81rem;
+    /*margin-right: 0.1rem;*/
+    margin: 0.1rem;
+}
+
+.recommend .text h3 {
+    width: 1.87rem;
+    font-size: 0.18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.recommend .text p:nth-child(2), .houseList .text p:nth-child(3) {
+    width: 1.87rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.3rem;
+}
+
+.recommend .text p:nth-child(2) span:nth-child(2) {
+    color: #ff8a00;
+    font-weight: 600;
+}
+
+.recommend .text p:nth-child(3) {
+    color: #b4b4b4;
+}
+
+.recommend .text p:nth-child(4) a {
+    background-color: rgba(237, 249, 247, 0.8);
+    color: #849AAE;
+    text-decoration: none;
+    margin-right: 0.05rem;
+    line-height: 0.3rem;
+}
+
+.recommend ul > p {
+    text-indent: 0.1rem;
+    background-color: #ccc;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.recommend .end {
+    background-color: #fff;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    text-align: center;
+}
+/*脚部*/
+.footer_end {
+    margin-top: 0.1rem;
+    font-size: 0.13rem;
+    display: flex;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+.footer_end p img {
+    width: 0.22rem;
+    height: 0.22rem;
+    vertical-align: -6px;
+}
+
+.footer_end p:first-child {
+    height:0.4rem;
+    line-height: 0.4rem;
+    flex: 2;
+    text-align: center;
+    background-color: #FF8A00;
+    border-radius: 4px;
+}
+.footer_end p:nth-child(2){
+    flex: 1;
+    text-align: center;
+    height:0.4rem;
+    line-height: 0.4rem;
+}

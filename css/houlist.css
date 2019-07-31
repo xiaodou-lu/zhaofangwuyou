@@ -1,0 +1,264 @@
+/*<!--搜索栏-->*/
+.search {
+    padding: 0.1rem 0.15rem;
+
+}
+
+.search_top {
+    font-size: 0.13rem;
+    display: flex;
+    border: 0.01rem solid #ccc;
+    border-radius: 5px;
+}
+
+.search_top input {
+    margin-left: 0.1rem;
+    border: none;
+    height: 0.4rem;
+    width: 2.2rem;
+}
+
+.search_top p {
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+    width: 0.6rem;
+}
+
+.search_top p span {
+    display: block;
+    flex: 3;
+}
+
+.search_top p img {
+    width: 0.18rem;
+    height: 0.18rem;
+    flex: 1;
+    margin-right: 0.15rem;
+}
+
+/*导航部分*/
+.title {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1rem 0.15rem;
+    border-top: 0.01rem solid #ccc;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.title h2 {
+    font-size: 0.16rem;
+    display: flex;
+    color: #898787;
+}
+
+.title h2 span {
+    font-size: 0.08rem;
+    display: block;
+    line-height: 0.2rem;
+    color: #b4b4b4;
+}
+/*导航部分的下拉列表*/
+/*区域下拉列表*/
+.title_region {
+    display: none;
+    background-color: #fff;
+    width: 100%;
+}
+
+.title_regionL {
+    padding-left: 0.3rem;
+    float: left;
+}
+
+.title_regionL h2 {
+    font-size: 0.16rem;
+    line-height: 0.45rem;
+    padding-right: 0.2rem;
+}
+.title_regionL h2:hover{
+    color:#ff8a00 ;
+}
+.title_regionL h2:last-child {
+    height: 1.9rem;
+    border-right: 0.01rem solid #999999;
+}
+
+.title_regionR {
+    padding-right: 0.2rem;
+    font-size: 0.13rem;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.title_regionR ul {
+    list-style: none;
+}
+
+.title_regionR ul li {
+    line-height: 0.35rem;
+}
+.title_regionR ul li:hover{
+    color:#ff8a00 ;
+}
+
+/*价格下拉列表*/
+.title_price {
+    width: 100%;
+    display: none;
+    background-color: #fff;
+}
+
+.title_price ul {
+    font-size: 0.13rem;
+    padding: 0.1rem 0.2rem;
+    list-style: none;
+}
+
+.title_price ul li {
+    line-height: 0.35rem;
+    border-bottom: 0.01rem solid #CCCCCC;
+}
+.title_price ul li:hover{
+    color:#ff8a00 ;
+}
+
+/*房型下拉列表*/
+.title_houstype {
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.title_houstype ul {
+    font-size: 0.13rem;
+    padding: 0.1rem 0.2rem;
+    list-style: none;
+}
+
+.title_houstype ul li {
+    line-height: 0.35rem;
+    border-bottom: 0.01rem solid #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_houstype ul li span {
+    display: block;
+}
+.title_houstype ul li:hover{
+    color:#ff8a00 ;
+}
+
+    /*更多下拉列表*/
+.title_more {
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.title_more ul {
+    padding: 0.1rem 0.2rem;
+    list-style: none;
+}
+
+.title_more ul li {
+    font-size: 0;
+    border-bottom: 0.01rem solid #CCCCCC;
+}
+
+.title_more ul li h5 {
+    font-size: 0.14rem;
+    margin: 0.1rem 0;
+}
+
+.title_moreB {
+    padding: 0.1rem 0;
+    overflow: hidden;
+}
+
+.title_moreB p {
+    font-size: 0.13rem;
+    width: 22%;
+    float: left;
+    margin-left: 0.05rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    margin-bottom: 0.05rem;
+    text-align: center;
+    border: 0.01rem solid #CCCCCC;
+}
+.title_moreB p:hover{
+   border:0.01rem solid #ff8a00;
+    color:#ff8a00 ;
+}
+/*下拉列表定位*/
+.nav_box {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    /*display: none;*/
+}
+
+/*蒙版*/
+.mask {
+    width: 100%;
+    height: 97%;
+    /*height: 3rem;*/
+    background: rgba(1, 1, 1, 0.2);
+    position: absolute;
+    display: none;
+}
+
+/*详情部分*/
+.parlist {
+    font-size: 0.13rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+
+.parlist ul li {
+    width: 100%;
+    display: flex;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #FF0000;
+}
+
+.parlist ul li:last-child {
+    border-bottom: none;
+}
+
+.parlist ul li .img img {
+    width: 0.81rem;
+    height: 0.81rem;
+    margin-right: 0.1rem;
+}
+
+.parlist .text h3 {
+    width: 1.87rem;
+    font-size: 0.18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.parlist .text p:nth-child(2) {
+    line-height: 0.25rem;
+}
+
+.parlist .text p:nth-child(3) {
+    color: #999999;
+    line-height: 0.25rem;
+}
+
+.parlist .text p:nth-child(3) span:nth-child(2) {
+    color: #ff8a00;
+    font-weight: 600;
+}
+
+.parlist .text p:nth-child(4) {
+    color: #999999;
+    line-height: 0.2rem;
+}

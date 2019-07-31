@@ -1,0 +1,227 @@
+/*banna图*/
+body {
+    background-color: #eeeeee;
+}
+
+.banna {
+    width: 100%;
+    height: 2.24rem;
+    /*border: 0.01rem solid red;*/
+    background: url("../img/banner.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banna form {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.15rem;
+    font-size: 0.13rem;
+    border: 0.02rem solid #dbdbdb;
+    border-radius: 0.1rem;
+    margin-left: 0.05rem;
+    box-shadow: -0.025rem -0.025rem #999999;
+}
+
+.banna form span {
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.35rem;
+    background-color: #FEFEFE;
+    line-height: 0.45rem;
+    border-radius: 0.1rem 0 0 0.1rem;
+    padding-left: 0.05rem;
+    vertical-align: -0.06rem;
+    float: left;
+}
+
+.banna form span img {
+    width: 100%;
+}
+
+.banna form input {
+    width: 2.5rem;
+    height: 0.35rem;
+    font-size: 0.13rem;
+    border: none;
+    border-radius: 0 0.1rem 0.1rem 0;
+}
+
+/*导航部分*/
+nav {
+    margin-bottom: 0.1rem;
+}
+
+nav ul {
+    height: 1.1rem;
+    background: #ff8a00;
+    font-size: 0.13rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li img, nav ul li p {
+    width: 0.55rem;
+    height: 0.54rem;
+    text-align: center;
+    color: white;
+}
+
+nav ul li p {
+    margin-top: 0.02rem;
+    height: 0.2rem;
+}
+
+/*banna2图*/
+.banna2 {
+    font-size: 0;
+}
+
+.banna2 img {
+    width: 100%;
+
+}
+
+/*热门房源*/
+.hot {
+    padding: 0.1rem;
+    font-size: 0.12rem;
+    /*font-size: 0;*/
+    background-color: #ff8a00;
+    color: white;
+}
+
+.hot p {
+    font-size: 0.12rem;
+    font-weight: 600;
+}
+
+/*热门房源列表*/
+.houseList ul {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    font-size: 0.13rem;
+    background-color: #fff;
+}
+
+.houseList ul li {
+    width: 100%;
+    display: flex;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.01rem solid #FF0000;
+}
+
+.houseList ul li .img img {
+    width: 0.81rem;
+    height: 0.81rem;
+    /*margin-right: 0.1rem;*/
+    margin: 0.1rem;
+}
+
+.houseList .text h3 {
+    width: 1.87rem;
+    font-size: 0.18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.houseList .text p:nth-child(2),.houseList .text p:nth-child(3){
+    width: 1.87rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.3rem;
+}
+.houseList .text p:nth-child(2) span:nth-child(2){
+    color:#ff8a00;
+    font-weight: 600;
+}
+.houseList .text p:nth-child(3){
+    color: #b4b4b4;
+}
+.houseList .text p:nth-child(4) a{
+    background-color: rgba(237, 249, 247,0.8);
+    color: #849AAE;
+    text-decoration: none;
+    margin-right: 0.05rem;
+}
+/*热门tab切换*/
+.hottab>ul{
+    margin-top: 0.1rem;
+    height: 0.54rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #ff8a00;
+    display: flex;
+    list-style: none;
+}
+.hottab>ul li{
+    color: #999999;
+    font-size: 0.18rem;
+    flex: 1;
+    text-align: center;
+    line-height: 0.54rem;
+}
+.hottab ul li:hover{
+    color:#ff8a00 ;
+}
+.hottab12{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.13rem;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.25rem;
+    background-color: #fff;
+}
+.hottab12 ul{
+    list-style: none;
+}
+
+/*广告*/
+.advertising{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    /*justify-content: space-between;*/
+    font-size: 0.13rem;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+.advertising .left{
+    display: flex;
+    justify-content: space-between;
+    flex:2;
+    background-color:rgba(1,1,1,0.2);
+}
+.advertising .left>p:first-child img{
+    width: 0.14rem;
+    height: 0.15rem;
+}
+.advertising .left>p:nth-child(2) img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.1rem;
+}
+.advertising .text p:nth-child(1){
+    font-size: 0.18rem;
+    font-weight: 600;
+}
+.advertising>p{
+    flex: 1;
+    background-color: #ff8a00;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.5rem;
+}

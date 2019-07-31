@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>找房无忧首页</title>
+    <link rel="stylesheet" href="../css/contioner.css">
+</head>
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/contioner.css">
+
+<body>
+<header>
+    <img src="../img/logo.jpg" alt="">
+    <div class="icon">
+        <a href="my.html"><img src="../img/my.jpg" alt=""></a>
+        <img src="../img/xiazai.jpg" alt="">
+    </div>
+</header>
+<section class="banna">
+    <form action="">
+        <span><img src="../img/seach.jpg" alt=""></span>
+        <input type="text" placeholder="输入小区或商圈名开始找房咯~！">
+    </form>
+</section>
+<nav>
+    <ul>
+        <li><a href="houlist.html"><img src="../img/index_03.png" alt=""></a>
+            <p>二手房</p>
+        </li>
+        <li><img src="../img/index_05.png" alt="">
+            <p>新房</p>
+        </li>
+        <li><a href="particulars.html"><img src="../img/index_07.png" alt=""></a>
+            <p>租房</p>
+        </li>
+        <li><img src="../img/index_09.png" alt="">
+            <p>卖房</p>
+        </li>
+    </ul>
+</nav>
+<section class="banna2">
+    <img src="../img/banner2.png" alt="">
+</section>
+<section class="hot">
+    <h2>热门房源</h2>
+    <p>hot house</p>
+</section>
+<div class="houseList">
+    <ul>
+        <li>
+            <div class="img"><img src="../img/img1.png" alt=""></div>
+            <div class="text">
+                <h3>文化部中间层 一层带阁楼</h3>
+                <p><span>2室1厅96㎡南北 </span> <span>1105万</span></p>
+                <p><span>红庙北里  </span> <span>14268元/平</span></p>
+                <p><a href="">学区房</a><a href="">独家</a></p>
+            </div>
+        </li>
+        <li>
+            <div class="img"><img src="../img/img1.png" alt=""></div>
+            <div class="text">
+                <h3>文化部中间层 一层带阁楼</h3>
+                <p><span>2室1厅96㎡南北 </span> <span>1105万</span></p>
+                <p><span>红庙北里  </span> <span>14268元/平</span></p>
+                <p><a href="">学区房</a><a href="">独家</a></p>
+            </div>
+        </li>
+        <li>
+            <div class="img"><img src="../img/img1.png" alt=""></div>
+            <div class="text">
+                <h3>文化部中间层 一层带阁楼</h3>
+                <p><span>2室1厅96㎡南北 </span> <span>1105万</span></p>
+                <p><span>红庙北里  </span> <span>14268元/平</span></p>
+                <p><a href="">学区房</a><a href="">独家</a></p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="hottab">
+    <ul>
+        <li>热们关注</li>
+        <li>友情链接</li>
+    </ul>
+    <div class="hottab12">
+        <ul>
+            <li>北京二手房</li>
+            <li>北京二手房价</li>
+            <li>海淀日租房</li>
+            <li>朝阳新房</li>
+        </ul>
+        <ul>
+            <li>北京找房无忧</li>
+            <li>青年家园</li>
+            <li>免税房源</li>
+            <li>满五年唯一免税</li>
+        </ul>
+    </div>
+</div>
+<footer class="footer_top">
+    <h2>北京找房无忧 > <a href="index.html">首页</a></h2>
+</footer>
+<footer class="footer_center">
+    <p>
+        <img src="../img/apple.png" alt="">
+        <div class="text">
+             <p>iPhone</p>
+             <p>客户端</p>
+         </div>
+
+    <p>
+    <p>
+        <img src="../img/android.png" alt="">
+        <div class="text">
+          <p>iPhone</p>
+          <p>客户端</p>
+         </div>
+    </p>
+</footer>
+<footer class="footer_bottom">
+    <p>北京找房无忧房地产经纪公司</p>
+    <p>网络经营许可证京ICP备20160812号</p>
+</footer>
+<div class="advertising">
+    <div class="left">
+        <p><img src="../img/close.png" alt=""></p>
+        <p><img src="../img/download.png" alt=""></p>
+        <div class="text">
+            <p>找房无忧</p>
+            <p>市场行情，一手掌握！</p>
+        </div>
+    </div>
+
+    <p>
+        免费下载
+    </p>
+
+</div>
+
+</body>
+<script src="../js/zepto.js"></script>
+<script src="../js/touch.js"></script>
+<script src="../js/contioner.js"></script>
+<script>
+    $(".advertising .left>p:first-child img").on("tap",function () {
+        $(this).parents(".advertising").remove();
+    })
+</script>
+</html>
